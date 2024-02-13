@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Expanded&display=swap" rel="stylesheet">
+    <linkrel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Rodrigo y Rocio</h1>
+        <P>NUESTRA BODA</P>
+    </header>
+    <main>
+        <div>
+            <h1>!NOS CASAMOS!</h1>
+            <audio id="musica" src="multimedia/canciones/Ed Sheeran - Perfect sub español.mp3" controls controlslist="nodownload noremoteplayback noplaybackrate">
+            </audio>
+        </div>
+        <div id="inicio">
+            <h2>¡Estas invitado!</h2>
+            <p>Festejamos nuestro casamiento y queremos que seas parte de este momento tan especial</p>
+        </div>
+        <section class="container">
+            <div class="countdown">
+                <div>
+                    <p id="days">132</p>
+                    <span>Dias</span>
+                </div>
+                <div>
+                    <p id="hours">15</p>
+                    <span>Horas</span>
+                </div>
+                <div>
+                    <p id="minutes">25</p>
+                    <span>Minutos</span>
+                </div>
+                <div>
+                    <p id="seconds">45</p>
+                    <span>Segundos</span>
+                </div>
+            </div>
+        </section>
+        <div id="horarios">
+            <div id="ceremonia">
+                <img src="multimedia/icons/anillo-de-compromiso.gif" alt="">
+                <h2>CEREMONIA</h2>
+                
+                <div id="dia_hora">
+                    <p>16 MAR</p>
+                    <P>|</P>
+                    <P>15 HRS</P>
+                </div>
+            </div>
+            <div id="ubicacion_div">
+                <a id="ubicacion" href="https://maps.app.goo.gl/enr7whryUDURE6vw7">
+                    Ver ubicacion
+                </a>
+            </div>
+            <div id="celebracion">
+                <img src="./multimedia/icons/tostada.gif" alt="">
+                <h2>CELEBRACION</h2>
+                <div id="dia_hora">
+                    
+                    <p>16 MAR</p>
+                    <P>|</P>
+                    <P>19 HRS</P>
+                </div>
+            </div>
+            <div id="ubicacion_div">
+                <a id="ubicacion" href="https://maps.app.goo.gl/ewMobTCpAbWMVvho9">
+                    Ver ubicacion
+                </a>
+            </div>
+        </div>
+        <div id="vestimenta">
+            <p>_______________________________________</p>
+            <h2>
+                Codigo de vestimenta
+            </h2>
+            <div id="mujerHombre">
+                <div id="mujer">
+                    <p> 
+                        <img src="multimedia/icons/matrimonio.gif" alt="">
+                        FORMAL <br> Por favor, evita vestirte de blanco 
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div id="regalo">
+            <img src="multimedia/icons/regalo.gif">
+            <h3>REGALO</h3>
+            <p>Lo más importante es tu presencia, pero si deseas hacernos un regalo aqui tienes esta opcion:</p>
+            <img id="carta" src="multimedia/icons/icons8-carta-de-amor-48.png">
+            <a href="#idModal" id="efectivo" class="modal-trigger">Datos Bancarios</a> 
+            <div id="idModal" class="modal">
+                <div class="modal-content">
+                    <h6></h6>
+                    <h6></h6>
+                    <h6>CBU:</h6>
+                    <div id="cbu">
+                        <p>0140999803200072155333</p>
+                    </div>
+                    <h6>NUMERO DE CUENTA:</h6>
+                    <div>
+                        <p>20007215533</p>
+                    </div>
+                    <h6>CUIL:</h6>
+                    <div id="cuil">
+                        <p>4530000800010295562406</p>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <div id="asistencia">
+            <h2>
+                CONFIRMAR <br> ASISTENCIA
+            </h2>
+            <p>Por favor, confirma tu asistencia</p>
+            
+            <div id="contacto">
+                <a href="#">CONTACTO ROCIO</a>
+                <a href="#">CONTACTO RODRIGO</a>
+            </div>
+            
+        </div>
+        <div id="caja_album">
+            
+            <img src="multimedia/icons/camara.gif">
+            <h3>
+                COMPARTE BOTOS DE LA BODA AL ALBUM
+            </h3>
+            <div>
+                <a href="#">Ver fotos subidas</a>
+                <a href="#">Subir fotos</a>
+            </div>
+        </div>
+        <div id="final">
+            <img src="multimedia/fotos/WhatsApp Image 2024-02-13 at 18.45.50.jpeg" alt="">
+            <h2>Te esperamos</h2>
+            <h3>Rocio y Rodrigo</h3>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems);
+        });
+    </script>
+    <script src="reloj.js"></script>
+</body>
+</html>

@@ -1,0 +1,379 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+h1, h2, h3, p, a{
+    text-align: center;  
+    margin: 0%;
+}
+
+header{
+    height: 750px;
+    background-image: url("multimedia/fotos/WhatsApp\ Image\ 2024-02-08\ at\ 20.17.50.jpeg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+header h1{
+    padding-top: 75px;
+    font-size: 40px;
+    font-family: 'Alex Brush', cursive;
+    letter-spacing: inherit;
+    font-weight: bolder;
+    color: rgb(185 217 235);
+}
+
+header p{
+    font-size: 10px;
+    color: white;
+}
+
+div{
+    margin: 50px;
+}
+
+
+
+h1{  
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: inherit;
+    font-size: 30px;
+    width: 100%;
+    letter-spacing: 0.2em;
+}
+
+#inicio h2{
+    font-family: 'Alex Brush', cursive;
+    font-weight: inherit;
+    font-size: xxx-large;
+    color: rgb(185 217 235);
+    margin-bottom: 20px;
+}
+
+#inicio p{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: inherit;
+}
+
+a{
+    margin-left: 25%;
+}
+
+
+#musica{
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 80%;
+    height: 100px;
+}
+
+#caja{
+    margin: 20px 0px;
+}
+
+#cuenta{
+    display: flex;
+    margin: 30px;
+}
+
+#cuenta div{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.simply-amount{
+    border-radius: 50%;
+    padding: 15px;
+    border-color: #eed9be;
+    border-style: groove;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.countdown{
+    margin: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+}
+
+.countdown div{
+    margin: 0%;
+}
+
+
+.countdown p{
+    display: grid;
+    place-items: center;
+    border: solid 1px #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #b9d9eb;
+    height: 50px;
+    width: 50px;
+    margin: 0px 15px;
+}
+
+.countdown span{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #b9d9eb;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#horarios{
+    animation: reverse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+#horarios h2{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: xx-large;
+    
+}
+
+#horarios img{
+    height: 100px;
+    width: 100px;
+}
+
+#horarios a{
+    text-decoration: none;
+
+}
+
+#dia_hora{
+    font-family: 'Lora', serif;
+    font-weight: inherit;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    margin-top: 25px;
+}
+
+#celebracion, #ceremonia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ubicacion_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ubicacion{
+    text-align: center;
+    width: 50%;
+    margin-left: 0px;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #0b6262;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+#vestimenta{
+    margin: 0%;
+    
+}
+
+#vestimenta h2{
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: inherit bold;
+    font-size: 25px;
+    
+}
+
+#mujerHombre {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 20px;
+}
+
+#mujerHombre p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mujerHombre img{
+    display: flex;
+    margin-bottom: 10px;
+    height: 70px;
+    width: 70px;
+}
+
+#hombre img{
+    height: 60px;
+    margin-bottom: 0px;
+}
+
+
+#hombre img{
+    height: 60px;
+    margin-bottom: 0px;
+}
+
+#regalo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#regalo img{
+    height: 80px;
+}
+
+#regalo h3{
+    margin: 20px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.2em;
+}
+
+#regalo a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
+    font-weight: bolder;
+    color: #37bebe;
+    margin: 0%;
+}
+
+
+#carta{
+    margin-top: 40px;
+    height: 48px !important;
+    width: 48px;
+}
+
+#efectivo{
+    color: black !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+#asistencia{
+    height: 250px;
+    text-align: center;
+}
+
+#asistencia h2{
+    font-family: 'Lora', serif;
+}
+
+#asistencia p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#contacto{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+#contacto a{
+    text-align: center;
+    font-size: 10px;
+    padding: 15px;
+    margin-left: 0px;
+    background-color: #0b6262;
+    color: aliceblue;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+#caja_album{
+    width: center;
+    height: 500px;
+    margin: 100px 10%;
+    padding: 20px;
+    background-color: #b9d9eb;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+#caja_album img{
+    height: 100px;
+    width: 100px;
+    margin-left: 35%;
+}
+
+
+#caja_album div{
+    margin: 0%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#caja_album h3{
+    margin: 0%;
+    font-size: large;
+    font-weight: bold;
+}
+
+#caja_album div a{
+    width: 50%;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+    color: #b9d9eb;
+    background-color: white;
+}
+
+
+#final img{
+    width: 100%;
+}
+
+
+#final h2{
+    font-family: 'Alex Brush', cursive;
+    font-size: 70px;
+    font-weight: inherit;
+}
+
+#final h3{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #26879f;
+}
